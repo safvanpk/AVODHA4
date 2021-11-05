@@ -1,0 +1,48 @@
+
+
+REVERSE
+---------------------------------------------------------------------------------
+word = input("Input a word to reverse: ")
+
+for char in range(len(word) - 1, -1, -1):
+  print(word[char], end="")
+print("\n")
+
+-------------------------------------------------------------------------------------
+Write a python program to display the sentence B after defining the variable A as shown in the following.?
+
+A = (‘sister’,’USA’)
+
+B = I have a sister and she stays at USA with her husband
+----------------------------------------------------------------
+A = ('sister', 'USA')
+B = f" I have a {A[0]} and she stays at {A[1]} with her husband"
+print(B)
+
+-----------------------------------------------------------
+name = input("Please input your name: ")
+age = input("Please input your age: ")
+print(f"Hello, {name}. You are {age} years old now. You can access to this program!")
+-----------------------------------------------------------------------------------------
+name_list_1= {"Nisam", "Ash", "Jason", "Pranav"}
+name_list_2= {"Pranav", "Jason"}
+print(f"The names which exists in the first name list but not exist in the second set of name list : {name_list_1-name_list_2}")
+-------------------------------------------------------------------------------------------------
+string = input("String = ")
+number = int(input("number of multiplications = "))
+print(string*number)
+-------------------------------------------------------------
+wt = float(input("Please input your weight in kg: "))
+ht = float(input("Please input your height in m: "))
+print(f"Your BMI is {round(wt/ht,2)}")
+-------------------------------------------------------------
+string = "Flauccinaucinihilipilification"
+len = 0
+for _ in string: len += 1
+print(len)
+---------------------------------------------------------------
+sentence =  "Carlsen checkmated by Vishy Anand"
+word = "checkmate"
+if sentence.find(word)>=0 : print(f"\'{word}\' is found in \"{sentence}\"")
+-----------------------------------------------------------------------------------
+
