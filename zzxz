@@ -1,0 +1,29 @@
+num = {'physics': 80, 'math': 90, 'chemistry': 86}
+print(list(num)[0])
+print(list(num)[1])
+print(list(num)[2])
+
+
+---------------------------------------------------
+
+
+a = {1:2 ,2:1 ,4:3 ,3:4 ,6:5 ,5:6 }
+#this will print a sorted list of the keys
+print(sorted(a.keys()))
+#this will print the sorted list with items.
+print(sorted(a.items()))
+----------------------------------------------
+
+d = {'a': 1, 'b': 2}
+print(d)
+d['a'] = 100  
+d['c'] = 3  
+d['d'] = 4
+print(d)
+-----------------------------------------------
+d1 = {'a': 100, 'b': 200}
+d2 = {'x': 300, 'y': 200}
+d = d1.copy()
+d.update(d2)
+print(d)
+--------------------------------------
